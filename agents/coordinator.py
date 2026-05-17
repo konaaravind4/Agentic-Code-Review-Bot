@@ -41,9 +41,9 @@ class CodeReviewResult:
             "## 🤖 Agentic Code Review",
             "",
             f"{'✅ Passed' if self.passed else '❌ Failed'} | "
-            f"🔒 {len(self.security.issues)} security | "
-            f"⚡ {len(self.performance.issues)} performance | "
-            f"🎨 {len(self.style.issues)} style",
+            f"{len(self.security.issues)} security | "
+            f"{len(self.performance.issues)} performance | "
+            f"{len(self.style.issues)} style",
             "",
         ]
 
