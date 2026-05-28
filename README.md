@@ -1,4 +1,4 @@
-# Agentic Code Review Bot 🤖
+# Agentic Code Review Bot 
 
 [![CI](https://github.com/konaaravind4/Agentic-Code-Review-Bot/actions/workflows/ci.yml/badge.svg)](https://github.com/konaaravind4/Agentic-Code-Review-Bot/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
