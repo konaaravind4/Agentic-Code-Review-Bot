@@ -6,7 +6,7 @@
 
 Autonomous GitHub PR reviewer using a 3-agent parallel pipeline: Security + Performance + Style, powered by Google Gemini 2.0 Flash.
 
-## 🏗️ Architecture
+##  Architecture
 ```
 GitHub PR Webhook
       │
@@ -23,7 +23,7 @@ CodeReviewCoordinator (ThreadPoolExecutor, parallel)
 PRCommenter → GitHub inline PR review comment
 ```
 
-## 📊 Metrics
+##  Metrics
 | Metric | Value |
 |--------|-------|
 | Bug Detection | 89% |
@@ -31,7 +31,7 @@ PRCommenter → GitHub inline PR review comment
 | Review Time | < 45s |
 | False Positive Rate | 6.2% |
 
-## 🚀 Quick Start
+##  Quick Start
 ```bash
 git clone https://github.com/konaaravind4/Agentic-Code-Review-Bot.git
 cd Agentic-Code-Review-Bot
@@ -46,7 +46,7 @@ curl -X POST http://localhost:8004/review/direct \
   -d '{"diff": "+    query = f\"SELECT * FROM users WHERE id = {user_id}\"", "filename": "views.py"}'
 ```
 
-## 📁 Structure
+## Structure
 ```
 ├── agents/
 │   ├── security_agent.py    # OWASP injection/secret detection
